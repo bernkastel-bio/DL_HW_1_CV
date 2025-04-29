@@ -12,9 +12,3 @@ The final script denoted in its filename as try3.
 ## Requirements
 
 I had been using conda env with packages signed in requirements.txt
-
-Also, for better performance I tried to set env variables:
-```bash
-export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
-export NVIDIA_TF32_OVERRIDE=1
-```
